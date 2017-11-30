@@ -6,3 +6,29 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  max-width: 50em;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.card-body {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+}
